@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Entrepreneurship,,FOUND
+2,Liberal Arts Education,,FOUND
+3,Creativity,,FOUND
+4,Innovation,3,FOUND
+5,Problem Solving,3,FOUND
+6,Critical Thinking,5,FOUND
+7,Growth Mindset,,FOUND
+8,Risk Tolerance,7,FOUND
+9,Resilience,7|8,FOUND
+10,Self-Awareness,7,FOUND
+11,Motivation,10,FOUND
+12,Curiosity,,FOUND
+13,Ethical Reasoning,6,FOUND
+14,Communication Skills,,FOUND
+15,Collaboration,14,FOUND
+16,Ikigai,1|10,IKIH
+17,Reason for Being,16,IKIH
+18,What You Love,10|12,IKIH
+19,What You Are Good At,10|27,IKIH
+20,What the World Needs,12|13,IKIH
+21,What You Can Be Paid For,1,IKIH
+22,Passion Intersection,16|18|19,IKIH
+23,Mission Intersection,16|18|20,IKIH
+24,Vocation Intersection,16|19|20,IKIH
+25,Profession Intersection,16|19|21,IKIH
+26,Ikigai Venn Diagram,22|23|24|25,IKIH
+27,Personal Values Assessment,10,IKIH
+28,Strength Identification,19|27,IKIH
+29,Purpose Discovery,17|23,IKIH
+30,Personal Brand,28|29,IKIH
+31,Ideation,3|12,IDEA
+32,Brainstorming,31,IDEA
+33,Cross-Disciplinary Creativity,2|3,IDEA
+34,SCAMPER Method,31|32,IDEA
+35,Design Thinking,5|31,IDEA
+36,User Empathy Mapping,35,IDEA
+37,Random Association Technique,12|31,IDEA
+38,Problem Inversion,5|31,IDEA
+39,Observation Skills,12,IDEA
+40,Music as Idea Source,2|33,IDEA
+41,Visual Arts as Idea Source,2|33,IDEA
+42,Theater as Idea Source,2|33,IDEA
+43,Science as Idea Source,2|33,IDEA
+44,Humanities as Idea Source,2|33,IDEA
+45,Creative Confidence,3|7|31,IDEA
+46,Idea Capture,31,IDEA
+47,Divergent Thinking,3|31,IDEA
+48,Convergent Thinking,6|47,IDEA
+49,Prototyping Mindset,35|45,IDEA
+50,Liberal Arts Advantage,2|33,IDEA
+51,Opportunity vs. Idea,1|31,OPP
+52,Customer Pain Points,36|39,OPP
+53,Underserved Markets,51|52,OPP
+54,Social Gaps,13|20|52,OPP
+55,Trend Analysis,6|39,OPP
+56,Demographic Shifts,55,OPP
+57,Technology Waves,55,OPP
+58,Cultural Movements,55,OPP
+59,Regulatory Changes,13|55,OPP
+60,Opportunity Evaluation Matrix,51|55,OPP
+61,Market Research,51,OPP
+62,Primary Research,61,OPP
+63,Secondary Research,61,OPP
+64,Problem-Solution Fit,51|52,OPP
+65,Market Need Validation,61|64,OPP
+66,Value Proposition,64,VALC
+67,Value Proposition Canvas,66|70|71|72|73,VALC
+68,Customer Segments,61,VALC
+69,Customer Jobs,68,VALC
+70,Customer Pains,52|68,VALC
+71,Customer Gains,68|69,VALC
+72,Pain Relievers,66|70,VALC
+73,Gain Creators,66|71,VALC
+74,Features vs. Benefits,66,VALC
+75,The Mom Test,76,VALC
+76,Customer Interviews,52|68,VALC
+77,Competitive Differentiation,66,VALC
+78,Unique Selling Proposition,77,VALC
+79,Early Adopters,68,VALC
+80,Target Customer Profile,81,VALC
+81,Persona Development,68,VALC
+82,Jobs to Be Done Framework,69,VALC
+83,User Journey Map,36|80,VALC
+93,Lean Startup Methodology,1|7,LEAN
+85,Build-Measure-Learn Cycle,93,LEAN
+84,Minimum Viable Product,49|93,LEAN
+86,Riskiest Assumption,93|96,LEAN
+96,Hypothesis Testing,6,LEAN
+97,Experiment Design,96,LEAN
+87,Paper Prototype,49|84,LEAN
+88,Wireframe,84,LEAN
+89,Landing Page Test,84|88,LEAN
+90,A/B Testing,89|97,LEAN
+91,Validated Learning,85|90,LEAN
+92,Customer Feedback Loop,76|91,LEAN
+94,Pivot vs. Persevere Decision,92|93,LEAN
+95,Product-Market Fit,64|92,LEAN
+98,Learning Metrics,85|91,LEAN
+99,Social Entrepreneurship,1|13,SOC
+100,Social Venture,99,SOC
+101,Nonprofit Model,100,SOC
+102,For-Profit Model,1,SOC
+103,Hybrid Social Enterprise,101|102,SOC
+104,B-Corp Certification,103,SOC
+105,Benefit Corporation,103,SOC
+106,Cooperative Model,103,SOC
+107,Social Impact Measurement,13|100,SOC
+108,Theory of Change,99|107,SOC
+109,Social Return on Investment,107,SOC
+110,Triple Bottom Line,13|100,SOC
+111,Mission-Driven Organization,100|112,SOC
+112,Stakeholder Theory,1|13,SOC
+113,Community Engagement,15|100,SOC
+114,Team Formation,1|15,TEAM
+115,Team Diversity,114,TEAM
+116,Complementary Skills,28|115,TEAM
+117,Builder Role,116,TEAM
+118,Seller Role,116,TEAM
+119,Visionary Role,29|116,TEAM
+120,Co-Founder Pitch,14|114,TEAM
+121,Co-Founder Agreement,120|124,TEAM
+122,Founder Vesting,121,TEAM
+123,Conflict Resolution,6|125,TEAM
+124,Equity Split,114,TEAM
+125,Team Communication,14|114,TEAM
+126,Role Definition,116|127,TEAM
+127,Skill Gap Analysis,28|116,TEAM
+129,Business Model,1,BIZ
+128,Business Model Canvas,66|129,BIZ
+130,Revenue Streams,128,BIZ
+131,Channels,128,BIZ
+132,Customer Relationships,68|128,BIZ
+133,Key Resources,128,BIZ
+134,Key Activities,128,BIZ
+135,Key Partnerships,128,BIZ
+136,Cost Structure,128,BIZ
+137,Direct Channels,131,BIZ
+138,Indirect Channels,131,BIZ
+139,Customer Acquisition,79|131,BIZ
+140,Customer Retention,132|139,BIZ
+141,Subscription Model,130,BIZ
+142,Marketplace Model,130,BIZ
+143,Revenue Model,130,FIN
+144,Product Sales Model,143,FIN
+145,Licensing Model,143,FIN
+146,Freemium Model,143,FIN
+147,Service Revenue Model,143,FIN
+148,Customer Acquisition Cost,139,FIN
+149,Lifetime Customer Value,140|148,FIN
+150,Gross Margin,136|143,FIN
+151,Break-Even Analysis,150|154|155,FIN
+152,Financial Projection,151|153,FIN
+153,Cash Flow,130|136,FIN
+154,Fixed Costs,136,FIN
+155,Variable Costs,136,FIN
+156,Unit Economics,148|149|150,FIN
+157,Bootstrapping,152|153,FIN
+158,Brand Identity,30|78,MRKT
+159,Brand Story,158|160,MRKT
+160,Hero's Journey,14,MRKT
+161,Founder Story,30|159,MRKT
+162,Word-of-Mouth Marketing,139|166,MRKT
+163,Social Media Marketing,139|158,MRKT
+164,Campus Marketing,163,MRKT
+165,Content Marketing,159|163,MRKT
+166,Network Effects,129,MRKT
+167,Zero-Budget Marketing,162|164,MRKT
+168,Viral Loop,162|166,MRKT
+169,Press Coverage,158|165,MRKT
+170,Pitch Story Arc,159|171,MRKT
+171,Storytelling Frameworks,14|160,MRKT
+172,Early Adopter Strategy,79|139,MRKT
+173,Customer Referral Program,140|162,MRKT
+174,Competitive Landscape Analysis,60|77,MRKT
+175,Market Sizing,61|68,MRKT
+176,Pitch Deck,128|170,PITCH
+177,Problem Slide,52|176,PITCH
+178,Solution Slide,66|176,PITCH
+179,Market Size Slide,175|176,PITCH
+180,Traction Slide,91|176,PITCH
+181,Team Slide,114|176,PITCH
+182,Ask Slide,152|176,PITCH
+183,Total Addressable Market,68|175,PITCH
+184,Serviceable Addressable Market,183,PITCH
+185,Serviceable Obtainable Market,184,PITCH
+186,Slide Design Principles,176,PITCH
+187,Pitch Delivery,14|176,PITCH
+188,Q&A Handling,6|187,PITCH
+189,Elevator Pitch,14|170,PITCH
+190,Video Pitch,176|187,PITCH
+191,Live Pitch,187|188,PITCH
+195,Ole Cup Timeline,,PITCH
+194,Ole Cup Eligibility,195,PITCH
+196,Ole Cup Mentoring Phase,195,PITCH
+193,Ole Cup Application,176|194,PITCH
+197,Ole Cup Judging Criteria,195,PITCH
+192,Ole Cup Competition,193|196|197,PITCH
+198,People's Choice Award,192,PITCH
+199,Minnesota Cup,192,PITCH
+200,Post-Competition Launch,157|192,PITCH
