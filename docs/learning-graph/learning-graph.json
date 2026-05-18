@@ -1,0 +1,2397 @@
+{
+  "metadata": {
+    "title": "Ole Cup Entrepreneurship: A Liberal Arts Guide to the St. Olaf Pitch Competition",
+    "description": "An interactive learning graph for the Ole Cup entrepreneurship course at St. Olaf College, guiding students through ideation, Ikigai discovery, team formation, business model development, and the Ole Cup pitch competition.",
+    "creator": "Dan McCreary",
+    "date": "2026-05-18",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "IKIH": {
+      "classifierName": "Ikigai and Self-Discovery",
+      "color": "DarkOrchid",
+      "font": {
+        "color": "white"
+      }
+    },
+    "IDEA": {
+      "classifierName": "Ideation and Creativity",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "OPP": {
+      "classifierName": "Opportunity Recognition",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "VALC": {
+      "classifierName": "Value and Customer Discovery",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "LEAN": {
+      "classifierName": "Lean and MVP Thinking",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SOC": {
+      "classifierName": "Social Ventures and Impact",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "TEAM": {
+      "classifierName": "Team and Leadership",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "BIZ": {
+      "classifierName": "Business Model Canvas",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "FIN": {
+      "classifierName": "Financial Fundamentals",
+      "color": "OliveDrab",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MRKT": {
+      "classifierName": "Marketing and Storytelling",
+      "color": "HotPink",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PITCH": {
+      "classifierName": "Pitching and Competition",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Entrepreneurship",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Liberal Arts Education",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 3,
+      "label": "Creativity",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 4,
+      "label": "Innovation",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Problem Solving",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Critical Thinking",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Growth Mindset",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 8,
+      "label": "Risk Tolerance",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Resilience",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Self-Awareness",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Motivation",
+      "group": "FOUND"
+    },
+    {
+      "id": 12,
+      "label": "Curiosity",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 13,
+      "label": "Ethical Reasoning",
+      "group": "FOUND"
+    },
+    {
+      "id": 14,
+      "label": "Communication Skills",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 15,
+      "label": "Collaboration",
+      "group": "FOUND"
+    },
+    {
+      "id": 16,
+      "label": "Ikigai",
+      "group": "IKIH"
+    },
+    {
+      "id": 17,
+      "label": "Reason for Being",
+      "group": "IKIH"
+    },
+    {
+      "id": 18,
+      "label": "What You Love",
+      "group": "IKIH"
+    },
+    {
+      "id": 19,
+      "label": "What You Are Good At",
+      "group": "IKIH"
+    },
+    {
+      "id": 20,
+      "label": "What the World Needs",
+      "group": "IKIH"
+    },
+    {
+      "id": 21,
+      "label": "What You Can Be Paid For",
+      "group": "IKIH"
+    },
+    {
+      "id": 22,
+      "label": "Passion Intersection",
+      "group": "IKIH"
+    },
+    {
+      "id": 23,
+      "label": "Mission Intersection",
+      "group": "IKIH"
+    },
+    {
+      "id": 24,
+      "label": "Vocation Intersection",
+      "group": "IKIH"
+    },
+    {
+      "id": 25,
+      "label": "Profession Intersection",
+      "group": "IKIH"
+    },
+    {
+      "id": 26,
+      "label": "Ikigai Venn Diagram",
+      "group": "IKIH"
+    },
+    {
+      "id": 27,
+      "label": "Personal Values Assessment",
+      "group": "IKIH"
+    },
+    {
+      "id": 28,
+      "label": "Strength Identification",
+      "group": "IKIH"
+    },
+    {
+      "id": 29,
+      "label": "Purpose Discovery",
+      "group": "IKIH"
+    },
+    {
+      "id": 30,
+      "label": "Personal Brand",
+      "group": "IKIH"
+    },
+    {
+      "id": 31,
+      "label": "Ideation",
+      "group": "IDEA"
+    },
+    {
+      "id": 32,
+      "label": "Brainstorming",
+      "group": "IDEA"
+    },
+    {
+      "id": 33,
+      "label": "Cross-Disciplinary Creativity",
+      "group": "IDEA"
+    },
+    {
+      "id": 34,
+      "label": "SCAMPER Method",
+      "group": "IDEA"
+    },
+    {
+      "id": 35,
+      "label": "Design Thinking",
+      "group": "IDEA"
+    },
+    {
+      "id": 36,
+      "label": "User Empathy Mapping",
+      "group": "IDEA"
+    },
+    {
+      "id": 37,
+      "label": "Random Association Technique",
+      "group": "IDEA"
+    },
+    {
+      "id": 38,
+      "label": "Problem Inversion",
+      "group": "IDEA"
+    },
+    {
+      "id": 39,
+      "label": "Observation Skills",
+      "group": "IDEA"
+    },
+    {
+      "id": 40,
+      "label": "Music as Idea Source",
+      "group": "IDEA"
+    },
+    {
+      "id": 41,
+      "label": "Visual Arts as Idea Source",
+      "group": "IDEA"
+    },
+    {
+      "id": 42,
+      "label": "Theater as Idea Source",
+      "group": "IDEA"
+    },
+    {
+      "id": 43,
+      "label": "Science as Idea Source",
+      "group": "IDEA"
+    },
+    {
+      "id": 44,
+      "label": "Humanities as Idea Source",
+      "group": "IDEA"
+    },
+    {
+      "id": 45,
+      "label": "Creative Confidence",
+      "group": "IDEA"
+    },
+    {
+      "id": 46,
+      "label": "Idea Capture",
+      "group": "IDEA"
+    },
+    {
+      "id": 47,
+      "label": "Divergent Thinking",
+      "group": "IDEA"
+    },
+    {
+      "id": 48,
+      "label": "Convergent Thinking",
+      "group": "IDEA"
+    },
+    {
+      "id": 49,
+      "label": "Prototyping Mindset",
+      "group": "IDEA"
+    },
+    {
+      "id": 50,
+      "label": "Liberal Arts Advantage",
+      "group": "IDEA"
+    },
+    {
+      "id": 51,
+      "label": "Opportunity vs. Idea",
+      "group": "OPP"
+    },
+    {
+      "id": 52,
+      "label": "Customer Pain Points",
+      "group": "OPP"
+    },
+    {
+      "id": 53,
+      "label": "Underserved Markets",
+      "group": "OPP"
+    },
+    {
+      "id": 54,
+      "label": "Social Gaps",
+      "group": "OPP"
+    },
+    {
+      "id": 55,
+      "label": "Trend Analysis",
+      "group": "OPP"
+    },
+    {
+      "id": 56,
+      "label": "Demographic Shifts",
+      "group": "OPP"
+    },
+    {
+      "id": 57,
+      "label": "Technology Waves",
+      "group": "OPP"
+    },
+    {
+      "id": 58,
+      "label": "Cultural Movements",
+      "group": "OPP"
+    },
+    {
+      "id": 59,
+      "label": "Regulatory Changes",
+      "group": "OPP"
+    },
+    {
+      "id": 60,
+      "label": "Opportunity Evaluation Matrix",
+      "group": "OPP"
+    },
+    {
+      "id": 61,
+      "label": "Market Research",
+      "group": "OPP"
+    },
+    {
+      "id": 62,
+      "label": "Primary Research",
+      "group": "OPP"
+    },
+    {
+      "id": 63,
+      "label": "Secondary Research",
+      "group": "OPP"
+    },
+    {
+      "id": 64,
+      "label": "Problem-Solution Fit",
+      "group": "OPP"
+    },
+    {
+      "id": 65,
+      "label": "Market Need Validation",
+      "group": "OPP"
+    },
+    {
+      "id": 66,
+      "label": "Value Proposition",
+      "group": "VALC"
+    },
+    {
+      "id": 67,
+      "label": "Value Proposition Canvas",
+      "group": "VALC"
+    },
+    {
+      "id": 68,
+      "label": "Customer Segments",
+      "group": "VALC"
+    },
+    {
+      "id": 69,
+      "label": "Customer Jobs",
+      "group": "VALC"
+    },
+    {
+      "id": 70,
+      "label": "Customer Pains",
+      "group": "VALC"
+    },
+    {
+      "id": 71,
+      "label": "Customer Gains",
+      "group": "VALC"
+    },
+    {
+      "id": 72,
+      "label": "Pain Relievers",
+      "group": "VALC"
+    },
+    {
+      "id": 73,
+      "label": "Gain Creators",
+      "group": "VALC"
+    },
+    {
+      "id": 74,
+      "label": "Features vs. Benefits",
+      "group": "VALC"
+    },
+    {
+      "id": 75,
+      "label": "The Mom Test",
+      "group": "VALC"
+    },
+    {
+      "id": 76,
+      "label": "Customer Interviews",
+      "group": "VALC"
+    },
+    {
+      "id": 77,
+      "label": "Competitive Differentiation",
+      "group": "VALC"
+    },
+    {
+      "id": 78,
+      "label": "Unique Selling Proposition",
+      "group": "VALC"
+    },
+    {
+      "id": 79,
+      "label": "Early Adopters",
+      "group": "VALC"
+    },
+    {
+      "id": 80,
+      "label": "Target Customer Profile",
+      "group": "VALC"
+    },
+    {
+      "id": 81,
+      "label": "Persona Development",
+      "group": "VALC"
+    },
+    {
+      "id": 82,
+      "label": "Jobs to Be Done Framework",
+      "group": "VALC"
+    },
+    {
+      "id": 83,
+      "label": "User Journey Map",
+      "group": "VALC"
+    },
+    {
+      "id": 93,
+      "label": "Lean Startup Methodology",
+      "group": "LEAN"
+    },
+    {
+      "id": 85,
+      "label": "Build-Measure-Learn Cycle",
+      "group": "LEAN"
+    },
+    {
+      "id": 84,
+      "label": "Minimum Viable Product",
+      "group": "LEAN"
+    },
+    {
+      "id": 86,
+      "label": "Riskiest Assumption",
+      "group": "LEAN"
+    },
+    {
+      "id": 96,
+      "label": "Hypothesis Testing",
+      "group": "LEAN"
+    },
+    {
+      "id": 97,
+      "label": "Experiment Design",
+      "group": "LEAN"
+    },
+    {
+      "id": 87,
+      "label": "Paper Prototype",
+      "group": "LEAN"
+    },
+    {
+      "id": 88,
+      "label": "Wireframe",
+      "group": "LEAN"
+    },
+    {
+      "id": 89,
+      "label": "Landing Page Test",
+      "group": "LEAN"
+    },
+    {
+      "id": 90,
+      "label": "A/B Testing",
+      "group": "LEAN"
+    },
+    {
+      "id": 91,
+      "label": "Validated Learning",
+      "group": "LEAN"
+    },
+    {
+      "id": 92,
+      "label": "Customer Feedback Loop",
+      "group": "LEAN"
+    },
+    {
+      "id": 94,
+      "label": "Pivot vs. Persevere Decision",
+      "group": "LEAN"
+    },
+    {
+      "id": 95,
+      "label": "Product-Market Fit",
+      "group": "LEAN"
+    },
+    {
+      "id": 98,
+      "label": "Learning Metrics",
+      "group": "LEAN"
+    },
+    {
+      "id": 99,
+      "label": "Social Entrepreneurship",
+      "group": "SOC"
+    },
+    {
+      "id": 100,
+      "label": "Social Venture",
+      "group": "SOC"
+    },
+    {
+      "id": 101,
+      "label": "Nonprofit Model",
+      "group": "SOC"
+    },
+    {
+      "id": 102,
+      "label": "For-Profit Model",
+      "group": "SOC"
+    },
+    {
+      "id": 103,
+      "label": "Hybrid Social Enterprise",
+      "group": "SOC"
+    },
+    {
+      "id": 104,
+      "label": "B-Corp Certification",
+      "group": "SOC"
+    },
+    {
+      "id": 105,
+      "label": "Benefit Corporation",
+      "group": "SOC"
+    },
+    {
+      "id": 106,
+      "label": "Cooperative Model",
+      "group": "SOC"
+    },
+    {
+      "id": 107,
+      "label": "Social Impact Measurement",
+      "group": "SOC"
+    },
+    {
+      "id": 108,
+      "label": "Theory of Change",
+      "group": "SOC"
+    },
+    {
+      "id": 109,
+      "label": "Social Return on Investment",
+      "group": "SOC"
+    },
+    {
+      "id": 110,
+      "label": "Triple Bottom Line",
+      "group": "SOC"
+    },
+    {
+      "id": 111,
+      "label": "Mission-Driven Organization",
+      "group": "SOC"
+    },
+    {
+      "id": 112,
+      "label": "Stakeholder Theory",
+      "group": "SOC"
+    },
+    {
+      "id": 113,
+      "label": "Community Engagement",
+      "group": "SOC"
+    },
+    {
+      "id": 114,
+      "label": "Team Formation",
+      "group": "TEAM"
+    },
+    {
+      "id": 115,
+      "label": "Team Diversity",
+      "group": "TEAM"
+    },
+    {
+      "id": 116,
+      "label": "Complementary Skills",
+      "group": "TEAM"
+    },
+    {
+      "id": 117,
+      "label": "Builder Role",
+      "group": "TEAM"
+    },
+    {
+      "id": 118,
+      "label": "Seller Role",
+      "group": "TEAM"
+    },
+    {
+      "id": 119,
+      "label": "Visionary Role",
+      "group": "TEAM"
+    },
+    {
+      "id": 120,
+      "label": "Co-Founder Pitch",
+      "group": "TEAM"
+    },
+    {
+      "id": 121,
+      "label": "Co-Founder Agreement",
+      "group": "TEAM"
+    },
+    {
+      "id": 122,
+      "label": "Founder Vesting",
+      "group": "TEAM"
+    },
+    {
+      "id": 123,
+      "label": "Conflict Resolution",
+      "group": "TEAM"
+    },
+    {
+      "id": 124,
+      "label": "Equity Split",
+      "group": "TEAM"
+    },
+    {
+      "id": 125,
+      "label": "Team Communication",
+      "group": "TEAM"
+    },
+    {
+      "id": 126,
+      "label": "Role Definition",
+      "group": "TEAM"
+    },
+    {
+      "id": 127,
+      "label": "Skill Gap Analysis",
+      "group": "TEAM"
+    },
+    {
+      "id": 129,
+      "label": "Business Model",
+      "group": "BIZ"
+    },
+    {
+      "id": 128,
+      "label": "Business Model Canvas",
+      "group": "BIZ"
+    },
+    {
+      "id": 130,
+      "label": "Revenue Streams",
+      "group": "BIZ"
+    },
+    {
+      "id": 131,
+      "label": "Channels",
+      "group": "BIZ"
+    },
+    {
+      "id": 132,
+      "label": "Customer Relationships",
+      "group": "BIZ"
+    },
+    {
+      "id": 133,
+      "label": "Key Resources",
+      "group": "BIZ"
+    },
+    {
+      "id": 134,
+      "label": "Key Activities",
+      "group": "BIZ"
+    },
+    {
+      "id": 135,
+      "label": "Key Partnerships",
+      "group": "BIZ"
+    },
+    {
+      "id": 136,
+      "label": "Cost Structure",
+      "group": "BIZ"
+    },
+    {
+      "id": 137,
+      "label": "Direct Channels",
+      "group": "BIZ"
+    },
+    {
+      "id": 138,
+      "label": "Indirect Channels",
+      "group": "BIZ"
+    },
+    {
+      "id": 139,
+      "label": "Customer Acquisition",
+      "group": "BIZ"
+    },
+    {
+      "id": 140,
+      "label": "Customer Retention",
+      "group": "BIZ"
+    },
+    {
+      "id": 141,
+      "label": "Subscription Model",
+      "group": "BIZ"
+    },
+    {
+      "id": 142,
+      "label": "Marketplace Model",
+      "group": "BIZ"
+    },
+    {
+      "id": 143,
+      "label": "Revenue Model",
+      "group": "FIN"
+    },
+    {
+      "id": 144,
+      "label": "Product Sales Model",
+      "group": "FIN"
+    },
+    {
+      "id": 145,
+      "label": "Licensing Model",
+      "group": "FIN"
+    },
+    {
+      "id": 146,
+      "label": "Freemium Model",
+      "group": "FIN"
+    },
+    {
+      "id": 147,
+      "label": "Service Revenue Model",
+      "group": "FIN"
+    },
+    {
+      "id": 148,
+      "label": "Customer Acquisition Cost",
+      "group": "FIN"
+    },
+    {
+      "id": 149,
+      "label": "Lifetime Customer Value",
+      "group": "FIN"
+    },
+    {
+      "id": 150,
+      "label": "Gross Margin",
+      "group": "FIN"
+    },
+    {
+      "id": 151,
+      "label": "Break-Even Analysis",
+      "group": "FIN"
+    },
+    {
+      "id": 152,
+      "label": "Financial Projection",
+      "group": "FIN"
+    },
+    {
+      "id": 153,
+      "label": "Cash Flow",
+      "group": "FIN"
+    },
+    {
+      "id": 154,
+      "label": "Fixed Costs",
+      "group": "FIN"
+    },
+    {
+      "id": 155,
+      "label": "Variable Costs",
+      "group": "FIN"
+    },
+    {
+      "id": 156,
+      "label": "Unit Economics",
+      "group": "FIN"
+    },
+    {
+      "id": 157,
+      "label": "Bootstrapping",
+      "group": "FIN"
+    },
+    {
+      "id": 158,
+      "label": "Brand Identity",
+      "group": "MRKT"
+    },
+    {
+      "id": 159,
+      "label": "Brand Story",
+      "group": "MRKT"
+    },
+    {
+      "id": 160,
+      "label": "Hero's Journey",
+      "group": "MRKT"
+    },
+    {
+      "id": 161,
+      "label": "Founder Story",
+      "group": "MRKT"
+    },
+    {
+      "id": 162,
+      "label": "Word-of-Mouth Marketing",
+      "group": "MRKT"
+    },
+    {
+      "id": 163,
+      "label": "Social Media Marketing",
+      "group": "MRKT"
+    },
+    {
+      "id": 164,
+      "label": "Campus Marketing",
+      "group": "MRKT"
+    },
+    {
+      "id": 165,
+      "label": "Content Marketing",
+      "group": "MRKT"
+    },
+    {
+      "id": 166,
+      "label": "Network Effects",
+      "group": "MRKT"
+    },
+    {
+      "id": 167,
+      "label": "Zero-Budget Marketing",
+      "group": "MRKT"
+    },
+    {
+      "id": 168,
+      "label": "Viral Loop",
+      "group": "MRKT"
+    },
+    {
+      "id": 169,
+      "label": "Press Coverage",
+      "group": "MRKT"
+    },
+    {
+      "id": 170,
+      "label": "Pitch Story Arc",
+      "group": "MRKT"
+    },
+    {
+      "id": 171,
+      "label": "Storytelling Frameworks",
+      "group": "MRKT"
+    },
+    {
+      "id": 172,
+      "label": "Early Adopter Strategy",
+      "group": "MRKT"
+    },
+    {
+      "id": 173,
+      "label": "Customer Referral Program",
+      "group": "MRKT"
+    },
+    {
+      "id": 174,
+      "label": "Competitive Landscape Analysis",
+      "group": "MRKT"
+    },
+    {
+      "id": 175,
+      "label": "Market Sizing",
+      "group": "MRKT"
+    },
+    {
+      "id": 176,
+      "label": "Pitch Deck",
+      "group": "PITCH"
+    },
+    {
+      "id": 177,
+      "label": "Problem Slide",
+      "group": "PITCH"
+    },
+    {
+      "id": 178,
+      "label": "Solution Slide",
+      "group": "PITCH"
+    },
+    {
+      "id": 179,
+      "label": "Market Size Slide",
+      "group": "PITCH"
+    },
+    {
+      "id": 180,
+      "label": "Traction Slide",
+      "group": "PITCH"
+    },
+    {
+      "id": 181,
+      "label": "Team Slide",
+      "group": "PITCH"
+    },
+    {
+      "id": 182,
+      "label": "Ask Slide",
+      "group": "PITCH"
+    },
+    {
+      "id": 183,
+      "label": "Total Addressable Market",
+      "group": "PITCH"
+    },
+    {
+      "id": 184,
+      "label": "Serviceable Addressable Market",
+      "group": "PITCH"
+    },
+    {
+      "id": 185,
+      "label": "Serviceable Obtainable Market",
+      "group": "PITCH"
+    },
+    {
+      "id": 186,
+      "label": "Slide Design Principles",
+      "group": "PITCH"
+    },
+    {
+      "id": 187,
+      "label": "Pitch Delivery",
+      "group": "PITCH"
+    },
+    {
+      "id": 188,
+      "label": "Q&A Handling",
+      "group": "PITCH"
+    },
+    {
+      "id": 189,
+      "label": "Elevator Pitch",
+      "group": "PITCH"
+    },
+    {
+      "id": 190,
+      "label": "Video Pitch",
+      "group": "PITCH"
+    },
+    {
+      "id": 191,
+      "label": "Live Pitch",
+      "group": "PITCH"
+    },
+    {
+      "id": 195,
+      "label": "Ole Cup Timeline",
+      "group": "PITCH",
+      "shape": "box"
+    },
+    {
+      "id": 194,
+      "label": "Ole Cup Eligibility",
+      "group": "PITCH"
+    },
+    {
+      "id": 196,
+      "label": "Ole Cup Mentoring Phase",
+      "group": "PITCH"
+    },
+    {
+      "id": 193,
+      "label": "Ole Cup Application",
+      "group": "PITCH"
+    },
+    {
+      "id": 197,
+      "label": "Ole Cup Judging Criteria",
+      "group": "PITCH"
+    },
+    {
+      "id": 192,
+      "label": "Ole Cup Competition",
+      "group": "PITCH"
+    },
+    {
+      "id": 198,
+      "label": "People's Choice Award",
+      "group": "PITCH"
+    },
+    {
+      "id": 199,
+      "label": "Minnesota Cup",
+      "group": "PITCH"
+    },
+    {
+      "id": 200,
+      "label": "Post-Competition Launch",
+      "group": "PITCH"
+    }
+  ],
+  "edges": [
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 5
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 7
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 13,
+      "to": 6
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 1
+    },
+    {
+      "from": 16,
+      "to": 10
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 10
+    },
+    {
+      "from": 18,
+      "to": 12
+    },
+    {
+      "from": 19,
+      "to": 10
+    },
+    {
+      "from": 19,
+      "to": 27
+    },
+    {
+      "from": 20,
+      "to": 12
+    },
+    {
+      "from": 20,
+      "to": 13
+    },
+    {
+      "from": 21,
+      "to": 1
+    },
+    {
+      "from": 22,
+      "to": 16
+    },
+    {
+      "from": 22,
+      "to": 18
+    },
+    {
+      "from": 22,
+      "to": 19
+    },
+    {
+      "from": 23,
+      "to": 16
+    },
+    {
+      "from": 23,
+      "to": 18
+    },
+    {
+      "from": 23,
+      "to": 20
+    },
+    {
+      "from": 24,
+      "to": 16
+    },
+    {
+      "from": 24,
+      "to": 19
+    },
+    {
+      "from": 24,
+      "to": 20
+    },
+    {
+      "from": 25,
+      "to": 16
+    },
+    {
+      "from": 25,
+      "to": 19
+    },
+    {
+      "from": 25,
+      "to": 21
+    },
+    {
+      "from": 26,
+      "to": 22
+    },
+    {
+      "from": 26,
+      "to": 23
+    },
+    {
+      "from": 26,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 10
+    },
+    {
+      "from": 28,
+      "to": 19
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 29,
+      "to": 17
+    },
+    {
+      "from": 29,
+      "to": 23
+    },
+    {
+      "from": 30,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 29
+    },
+    {
+      "from": 31,
+      "to": 3
+    },
+    {
+      "from": 31,
+      "to": 12
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 33,
+      "to": 2
+    },
+    {
+      "from": 33,
+      "to": 3
+    },
+    {
+      "from": 34,
+      "to": 31
+    },
+    {
+      "from": 34,
+      "to": 32
+    },
+    {
+      "from": 35,
+      "to": 5
+    },
+    {
+      "from": 35,
+      "to": 31
+    },
+    {
+      "from": 36,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 12
+    },
+    {
+      "from": 37,
+      "to": 31
+    },
+    {
+      "from": 38,
+      "to": 5
+    },
+    {
+      "from": 38,
+      "to": 31
+    },
+    {
+      "from": 39,
+      "to": 12
+    },
+    {
+      "from": 40,
+      "to": 2
+    },
+    {
+      "from": 40,
+      "to": 33
+    },
+    {
+      "from": 41,
+      "to": 2
+    },
+    {
+      "from": 41,
+      "to": 33
+    },
+    {
+      "from": 42,
+      "to": 2
+    },
+    {
+      "from": 42,
+      "to": 33
+    },
+    {
+      "from": 43,
+      "to": 2
+    },
+    {
+      "from": 43,
+      "to": 33
+    },
+    {
+      "from": 44,
+      "to": 2
+    },
+    {
+      "from": 44,
+      "to": 33
+    },
+    {
+      "from": 45,
+      "to": 3
+    },
+    {
+      "from": 45,
+      "to": 7
+    },
+    {
+      "from": 45,
+      "to": 31
+    },
+    {
+      "from": 46,
+      "to": 31
+    },
+    {
+      "from": 47,
+      "to": 3
+    },
+    {
+      "from": 47,
+      "to": 31
+    },
+    {
+      "from": 48,
+      "to": 6
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 35
+    },
+    {
+      "from": 49,
+      "to": 45
+    },
+    {
+      "from": 50,
+      "to": 2
+    },
+    {
+      "from": 50,
+      "to": 33
+    },
+    {
+      "from": 51,
+      "to": 1
+    },
+    {
+      "from": 51,
+      "to": 31
+    },
+    {
+      "from": 52,
+      "to": 36
+    },
+    {
+      "from": 52,
+      "to": 39
+    },
+    {
+      "from": 53,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 13
+    },
+    {
+      "from": 54,
+      "to": 20
+    },
+    {
+      "from": 54,
+      "to": 52
+    },
+    {
+      "from": 55,
+      "to": 6
+    },
+    {
+      "from": 55,
+      "to": 39
+    },
+    {
+      "from": 56,
+      "to": 55
+    },
+    {
+      "from": 57,
+      "to": 55
+    },
+    {
+      "from": 58,
+      "to": 55
+    },
+    {
+      "from": 59,
+      "to": 13
+    },
+    {
+      "from": 59,
+      "to": 55
+    },
+    {
+      "from": 60,
+      "to": 51
+    },
+    {
+      "from": 60,
+      "to": 55
+    },
+    {
+      "from": 61,
+      "to": 51
+    },
+    {
+      "from": 62,
+      "to": 61
+    },
+    {
+      "from": 63,
+      "to": 61
+    },
+    {
+      "from": 64,
+      "to": 51
+    },
+    {
+      "from": 64,
+      "to": 52
+    },
+    {
+      "from": 65,
+      "to": 61
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 64
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 67,
+      "to": 70
+    },
+    {
+      "from": 67,
+      "to": 71
+    },
+    {
+      "from": 67,
+      "to": 72
+    },
+    {
+      "from": 67,
+      "to": 73
+    },
+    {
+      "from": 68,
+      "to": 61
+    },
+    {
+      "from": 69,
+      "to": 68
+    },
+    {
+      "from": 70,
+      "to": 52
+    },
+    {
+      "from": 70,
+      "to": 68
+    },
+    {
+      "from": 71,
+      "to": 68
+    },
+    {
+      "from": 71,
+      "to": 69
+    },
+    {
+      "from": 72,
+      "to": 66
+    },
+    {
+      "from": 72,
+      "to": 70
+    },
+    {
+      "from": 73,
+      "to": 66
+    },
+    {
+      "from": 73,
+      "to": 71
+    },
+    {
+      "from": 74,
+      "to": 66
+    },
+    {
+      "from": 75,
+      "to": 76
+    },
+    {
+      "from": 76,
+      "to": 52
+    },
+    {
+      "from": 76,
+      "to": 68
+    },
+    {
+      "from": 77,
+      "to": 66
+    },
+    {
+      "from": 78,
+      "to": 77
+    },
+    {
+      "from": 79,
+      "to": 68
+    },
+    {
+      "from": 80,
+      "to": 81
+    },
+    {
+      "from": 81,
+      "to": 68
+    },
+    {
+      "from": 82,
+      "to": 69
+    },
+    {
+      "from": 83,
+      "to": 36
+    },
+    {
+      "from": 83,
+      "to": 80
+    },
+    {
+      "from": 93,
+      "to": 1
+    },
+    {
+      "from": 93,
+      "to": 7
+    },
+    {
+      "from": 85,
+      "to": 93
+    },
+    {
+      "from": 84,
+      "to": 49
+    },
+    {
+      "from": 84,
+      "to": 93
+    },
+    {
+      "from": 86,
+      "to": 93
+    },
+    {
+      "from": 86,
+      "to": 96
+    },
+    {
+      "from": 96,
+      "to": 6
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 87,
+      "to": 49
+    },
+    {
+      "from": 87,
+      "to": 84
+    },
+    {
+      "from": 88,
+      "to": 84
+    },
+    {
+      "from": 89,
+      "to": 84
+    },
+    {
+      "from": 89,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 90,
+      "to": 97
+    },
+    {
+      "from": 91,
+      "to": 85
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 92,
+      "to": 76
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 94,
+      "to": 92
+    },
+    {
+      "from": 94,
+      "to": 93
+    },
+    {
+      "from": 95,
+      "to": 64
+    },
+    {
+      "from": 95,
+      "to": 92
+    },
+    {
+      "from": 98,
+      "to": 85
+    },
+    {
+      "from": 98,
+      "to": 91
+    },
+    {
+      "from": 99,
+      "to": 1
+    },
+    {
+      "from": 99,
+      "to": 13
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 102,
+      "to": 1
+    },
+    {
+      "from": 103,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 104,
+      "to": 103
+    },
+    {
+      "from": 105,
+      "to": 103
+    },
+    {
+      "from": 106,
+      "to": 103
+    },
+    {
+      "from": 107,
+      "to": 13
+    },
+    {
+      "from": 107,
+      "to": 100
+    },
+    {
+      "from": 108,
+      "to": 99
+    },
+    {
+      "from": 108,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 107
+    },
+    {
+      "from": 110,
+      "to": 13
+    },
+    {
+      "from": 110,
+      "to": 100
+    },
+    {
+      "from": 111,
+      "to": 100
+    },
+    {
+      "from": 111,
+      "to": 112
+    },
+    {
+      "from": 112,
+      "to": 1
+    },
+    {
+      "from": 112,
+      "to": 13
+    },
+    {
+      "from": 113,
+      "to": 15
+    },
+    {
+      "from": 113,
+      "to": 100
+    },
+    {
+      "from": 114,
+      "to": 1
+    },
+    {
+      "from": 114,
+      "to": 15
+    },
+    {
+      "from": 115,
+      "to": 114
+    },
+    {
+      "from": 116,
+      "to": 28
+    },
+    {
+      "from": 116,
+      "to": 115
+    },
+    {
+      "from": 117,
+      "to": 116
+    },
+    {
+      "from": 118,
+      "to": 116
+    },
+    {
+      "from": 119,
+      "to": 29
+    },
+    {
+      "from": 119,
+      "to": 116
+    },
+    {
+      "from": 120,
+      "to": 14
+    },
+    {
+      "from": 120,
+      "to": 114
+    },
+    {
+      "from": 121,
+      "to": 120
+    },
+    {
+      "from": 121,
+      "to": 124
+    },
+    {
+      "from": 122,
+      "to": 121
+    },
+    {
+      "from": 123,
+      "to": 6
+    },
+    {
+      "from": 123,
+      "to": 125
+    },
+    {
+      "from": 124,
+      "to": 114
+    },
+    {
+      "from": 125,
+      "to": 14
+    },
+    {
+      "from": 125,
+      "to": 114
+    },
+    {
+      "from": 126,
+      "to": 116
+    },
+    {
+      "from": 126,
+      "to": 127
+    },
+    {
+      "from": 127,
+      "to": 28
+    },
+    {
+      "from": 127,
+      "to": 116
+    },
+    {
+      "from": 129,
+      "to": 1
+    },
+    {
+      "from": 128,
+      "to": 66
+    },
+    {
+      "from": 128,
+      "to": 129
+    },
+    {
+      "from": 130,
+      "to": 128
+    },
+    {
+      "from": 131,
+      "to": 128
+    },
+    {
+      "from": 132,
+      "to": 68
+    },
+    {
+      "from": 132,
+      "to": 128
+    },
+    {
+      "from": 133,
+      "to": 128
+    },
+    {
+      "from": 134,
+      "to": 128
+    },
+    {
+      "from": 135,
+      "to": 128
+    },
+    {
+      "from": 136,
+      "to": 128
+    },
+    {
+      "from": 137,
+      "to": 131
+    },
+    {
+      "from": 138,
+      "to": 131
+    },
+    {
+      "from": 139,
+      "to": 79
+    },
+    {
+      "from": 139,
+      "to": 131
+    },
+    {
+      "from": 140,
+      "to": 132
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 141,
+      "to": 130
+    },
+    {
+      "from": 142,
+      "to": 130
+    },
+    {
+      "from": 143,
+      "to": 130
+    },
+    {
+      "from": 144,
+      "to": 143
+    },
+    {
+      "from": 145,
+      "to": 143
+    },
+    {
+      "from": 146,
+      "to": 143
+    },
+    {
+      "from": 147,
+      "to": 143
+    },
+    {
+      "from": 148,
+      "to": 139
+    },
+    {
+      "from": 149,
+      "to": 140
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 136
+    },
+    {
+      "from": 150,
+      "to": 143
+    },
+    {
+      "from": 151,
+      "to": 150
+    },
+    {
+      "from": 151,
+      "to": 154
+    },
+    {
+      "from": 151,
+      "to": 155
+    },
+    {
+      "from": 152,
+      "to": 151
+    },
+    {
+      "from": 152,
+      "to": 153
+    },
+    {
+      "from": 153,
+      "to": 130
+    },
+    {
+      "from": 153,
+      "to": 136
+    },
+    {
+      "from": 154,
+      "to": 136
+    },
+    {
+      "from": 155,
+      "to": 136
+    },
+    {
+      "from": 156,
+      "to": 148
+    },
+    {
+      "from": 156,
+      "to": 149
+    },
+    {
+      "from": 156,
+      "to": 150
+    },
+    {
+      "from": 157,
+      "to": 152
+    },
+    {
+      "from": 157,
+      "to": 153
+    },
+    {
+      "from": 158,
+      "to": 30
+    },
+    {
+      "from": 158,
+      "to": 78
+    },
+    {
+      "from": 159,
+      "to": 158
+    },
+    {
+      "from": 159,
+      "to": 160
+    },
+    {
+      "from": 160,
+      "to": 14
+    },
+    {
+      "from": 161,
+      "to": 30
+    },
+    {
+      "from": 161,
+      "to": 159
+    },
+    {
+      "from": 162,
+      "to": 139
+    },
+    {
+      "from": 162,
+      "to": 166
+    },
+    {
+      "from": 163,
+      "to": 139
+    },
+    {
+      "from": 163,
+      "to": 158
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 159
+    },
+    {
+      "from": 165,
+      "to": 163
+    },
+    {
+      "from": 166,
+      "to": 129
+    },
+    {
+      "from": 167,
+      "to": 162
+    },
+    {
+      "from": 167,
+      "to": 164
+    },
+    {
+      "from": 168,
+      "to": 162
+    },
+    {
+      "from": 168,
+      "to": 166
+    },
+    {
+      "from": 169,
+      "to": 158
+    },
+    {
+      "from": 169,
+      "to": 165
+    },
+    {
+      "from": 170,
+      "to": 159
+    },
+    {
+      "from": 170,
+      "to": 171
+    },
+    {
+      "from": 171,
+      "to": 14
+    },
+    {
+      "from": 171,
+      "to": 160
+    },
+    {
+      "from": 172,
+      "to": 79
+    },
+    {
+      "from": 172,
+      "to": 139
+    },
+    {
+      "from": 173,
+      "to": 140
+    },
+    {
+      "from": 173,
+      "to": 162
+    },
+    {
+      "from": 174,
+      "to": 60
+    },
+    {
+      "from": 174,
+      "to": 77
+    },
+    {
+      "from": 175,
+      "to": 61
+    },
+    {
+      "from": 175,
+      "to": 68
+    },
+    {
+      "from": 176,
+      "to": 128
+    },
+    {
+      "from": 176,
+      "to": 170
+    },
+    {
+      "from": 177,
+      "to": 52
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 178,
+      "to": 66
+    },
+    {
+      "from": 178,
+      "to": 176
+    },
+    {
+      "from": 179,
+      "to": 175
+    },
+    {
+      "from": 179,
+      "to": 176
+    },
+    {
+      "from": 180,
+      "to": 91
+    },
+    {
+      "from": 180,
+      "to": 176
+    },
+    {
+      "from": 181,
+      "to": 114
+    },
+    {
+      "from": 181,
+      "to": 176
+    },
+    {
+      "from": 182,
+      "to": 152
+    },
+    {
+      "from": 182,
+      "to": 176
+    },
+    {
+      "from": 183,
+      "to": 68
+    },
+    {
+      "from": 183,
+      "to": 175
+    },
+    {
+      "from": 184,
+      "to": 183
+    },
+    {
+      "from": 185,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 176
+    },
+    {
+      "from": 187,
+      "to": 14
+    },
+    {
+      "from": 187,
+      "to": 176
+    },
+    {
+      "from": 188,
+      "to": 6
+    },
+    {
+      "from": 188,
+      "to": 187
+    },
+    {
+      "from": 189,
+      "to": 14
+    },
+    {
+      "from": 189,
+      "to": 170
+    },
+    {
+      "from": 190,
+      "to": 176
+    },
+    {
+      "from": 190,
+      "to": 187
+    },
+    {
+      "from": 191,
+      "to": 187
+    },
+    {
+      "from": 191,
+      "to": 188
+    },
+    {
+      "from": 194,
+      "to": 195
+    },
+    {
+      "from": 196,
+      "to": 195
+    },
+    {
+      "from": 193,
+      "to": 176
+    },
+    {
+      "from": 193,
+      "to": 194
+    },
+    {
+      "from": 197,
+      "to": 195
+    },
+    {
+      "from": 192,
+      "to": 193
+    },
+    {
+      "from": 192,
+      "to": 196
+    },
+    {
+      "from": 192,
+      "to": 197
+    },
+    {
+      "from": 198,
+      "to": 192
+    },
+    {
+      "from": 199,
+      "to": 192
+    },
+    {
+      "from": 200,
+      "to": 157
+    },
+    {
+      "from": 200,
+      "to": 192
+    }
+  ]
+}

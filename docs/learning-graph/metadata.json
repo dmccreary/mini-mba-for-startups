@@ -1,0 +1,10 @@
+{
+  "title": "Ole Cup Entrepreneurship: A Liberal Arts Guide to the St. Olaf Pitch Competition",
+  "description": "An interactive learning graph for the Ole Cup entrepreneurship course at St. Olaf College, guiding students through ideation, Ikigai discovery, team formation, business model development, and the Ole Cup pitch competition.",
+  "creator": "Dan McCreary",
+  "date": "2026-05-18",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
