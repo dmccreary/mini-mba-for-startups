@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:wp.stolaf.edu)",
+      "Bash(find /Users/danmccreary/.claude/skills/init-textbook/assets/templates -type f | sort)",
+      "Bash(cp /Users/danmccreary/.claude/skills/init-textbook/assets/templates/docs/img/license.png /Users/danmccreary/Documents/ws/mini-mba-for-startups/docs/img/license.png && echo \"License image copied\")",
+      "Bash(mkdocs build *)"
+    ]
+  }
+}
