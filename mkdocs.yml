@@ -42,6 +42,7 @@ nav:
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+      - Mascot Style Guide: learning-graph/mascot-test.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
@@ -54,7 +55,7 @@ nav:
 theme:
   name: material
   # Once a logo is generated, point this at docs/img/logo.png or a mascot pose:
-  # logo: img/logo.png
+  logo: img/mascot/neutral.png
   # favicon: img/favicon.ico
   palette:
     primary: 'amber'
@@ -117,6 +118,7 @@ markdown_extensions:
 # Custom CSS — file is created by init-textbook
 extra_css:
   - css/extra.css
+  - css/mascot.css
 
 # Custom JavaScript — uncomment once a corresponding file exists
 # extra_javascript:
@@ -129,6 +131,7 @@ exclude_docs: |
   **/cover-prompt.md
   **/TODO.md
   **/logs/*.md
+  img/mascot/character-sheet.md
 
 # Rebuild on changes during `mkdocs serve`
 watch:
