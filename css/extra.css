@@ -97,3 +97,32 @@
 .md-status--scaffold:hover:after { background-color: #b71c1c; }
 .md-status--built:hover:after    { background-color: #ef6c00; }
 .md-status--approved:hover:after { background-color: #1b5e20; }
+
+/* Pronounce button — inline audio playback for foreign-language terms */
+.pronounce-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    font-size: 0.78em;
+    font-family: inherit;
+    font-weight: 500;
+    color: var(--md-primary-fg-color);
+    background: transparent;
+    border: 1.5px solid var(--md-primary-fg-color);
+    border-radius: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 1.4;
+    transition: background 0.15s, color 0.15s;
+}
+.pronounce-btn:hover {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+}
+.pronounce-btn svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+    flex-shrink: 0;
+}
