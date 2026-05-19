@@ -5,7 +5,12 @@
       "WebFetch(domain:wp.stolaf.edu)",
       "Bash(find /Users/danmccreary/.claude/skills/init-textbook/assets/templates -type f | sort)",
       "Bash(cp /Users/danmccreary/.claude/skills/init-textbook/assets/templates/docs/img/license.png /Users/danmccreary/Documents/ws/mini-mba-for-startups/docs/img/license.png && echo \"License image copied\")",
-      "Bash(mkdocs build *)"
+      "Bash(mkdocs build *)",
+      "Bash(ls /Users/danmccreary/.claude/skills/book-installer/references/assets/)",
+      "Bash(ls /Users/danmccreary/.claude/skills/learning-graph-generator/)",
+      "Bash(cp /Users/danmccreary/.claude/skills/learning-graph-generator/*.py /Users/danmccreary/Documents/ws/mini-mba-for-startups/docs/learning-graph/)",
+      "Bash(cp /Users/danmccreary/.claude/skills/learning-graph-generator/learning-graph-schema.json /Users/danmccreary/Documents/ws/mini-mba-for-startups/docs/learning-graph/)",
+      "Bash(python analyze-graph.py learning-graph.csv quality-metrics.md)"
     ]
   }
 }
