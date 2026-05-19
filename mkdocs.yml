@@ -61,6 +61,7 @@ nav:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
 
+  - Feature Checklist: feature-checklist.md
   - License: license.md
   - Contact: contact.md
 
