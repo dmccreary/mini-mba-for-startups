@@ -10,7 +10,8 @@
       "Bash(ls /Users/danmccreary/.claude/skills/learning-graph-generator/)",
       "Bash(cp /Users/danmccreary/.claude/skills/learning-graph-generator/*.py /Users/danmccreary/Documents/ws/mini-mba-for-startups/docs/learning-graph/)",
       "Bash(cp /Users/danmccreary/.claude/skills/learning-graph-generator/learning-graph-schema.json /Users/danmccreary/Documents/ws/mini-mba-for-startups/docs/learning-graph/)",
-      "Bash(python analyze-graph.py learning-graph.csv quality-metrics.md)"
+      "Bash(python analyze-graph.py learning-graph.csv quality-metrics.md)",
+      "Bash(ls /Users/danmccreary/.claude/skills/chapter-content-generator/references/)"
     ]
   }
 }
