@@ -32,8 +32,21 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      # Add chapter entries here as content is generated, e.g.:
-      # - 1. Introduction: chapters/01-introduction/index.md
+      - 1. Ikigai: chapters/01-ikigai-and-self-discovery/index.md
+      - 2. Ideation: chapters/02-ideation-across-liberal-arts/index.md
+      - 3. Opportunity: chapters/03-recognizing-opportunity/index.md
+      - 4. Value Propositions: chapters/04-value-propositions/index.md
+      - 5. MVP Thinking: chapters/05-minimum-viable-product/index.md
+      - 6. Social Ventures: chapters/06-social-ventures-and-impact/index.md
+      - 7. Team Formation: chapters/07-team-formation-and-roles/index.md
+      - 8. Business Model Canvas: chapters/08-business-model-canvas/index.md
+      - 9. Financial Fundamentals: chapters/09-financial-fundamentals/index.md
+      - 10. Marketing: chapters/10-marketing-and-storytelling/index.md
+      - 11. Pitch Deck: chapters/11-the-pitch-deck/index.md
+      - 12. Ole Cup Rules: chapters/12-ole-cup-process-and-rules/index.md
+      - 13. Ecosystem: chapters/13-entrepreneurship-ecosystem/index.md
+      - 14. Learning from Failure: chapters/14-learning-from-failure/index.md
+      - 15. From Pitch to Launch: chapters/15-from-pitch-to-launch/index.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md

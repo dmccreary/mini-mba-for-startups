@@ -4,6 +4,23 @@ Project: Ole Cup Entrepreneurship: A Liberal Arts Guide to the St. Olaf Pitch Co
 Repo: mini-mba-for-startups
 Site URL: https://dmccreary.github.io/mini-mba-for-startups/
 
+## CRITICAL: Chapter Content Generation Rule
+
+**Before generating any chapter content, read [`CONTENT-GENERATION-GUIDE.md`](CONTENT-GENERATION-GUIDE.md) in full.**
+
+This file is the authoritative guide for tone (funny, positive, optimistic), chapter
+structure (8-section sequence), mascot admonition placement hard limits, St. Olaf-specific
+references, alumni proof points, and the pre-submission checklist. No chapter may be
+considered complete without passing every item on that checklist.
+
+Key rules enforced by the guide:
+- Opening hook must be a scene, question, or story — never a definition
+- Exactly 1 `mascot-welcome` (top) and 1 `mascot-celebration` (bottom) per chapter
+- Maximum 6 Rune admonitions per chapter; never back-to-back
+- At least one real St. Olaf alumni story or reference per chapter
+- Every chapter ends with `mascot-celebration` — never a summary list
+- Rune is always referred to by name or they/them — never he/him or she/her
+
 ## Learning Mascot: Rune the Raven
 
 ### Mascot File Index
