@@ -137,9 +137,9 @@ extra_css:
   - css/extra.css
   - css/mascot.css
 
-# Custom JavaScript — uncomment once a corresponding file exists
-# extra_javascript:
-#   - js/extra.js
+# Custom JavaScript
+extra_javascript:
+  - js/pronounce.js
 
 # Exclude prompt scratch files and TODOs from build/search/sitemap
 exclude_docs: |
